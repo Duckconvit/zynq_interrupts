@@ -1,0 +1,38 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 5 -x 1510 -y 10 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 5 -x 1510 -y -140 -defaultsOSRD
+preplace port leds_8bits -pg 1 -lvl 5 -x 1510 -y -430 -defaultsOSRD
+preplace port btns_5bits -pg 1 -lvl 5 -x 1510 -y -410 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 2 -x 530 -y -80 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 1 -x 150 -y -360 -defaultsOSRD
+preplace inst axi_gpio_1 -pg 1 -lvl 1 -x 150 -y -200 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 4 -x 1310 -y -290 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 3 -x 980 -y -250 -defaultsOSRD
+preplace inst axi_timer_0 -pg 1 -lvl 2 -x 530 -y -540 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 2 -x 530 -y -770 -defaultsOSRD
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 10 -450 280 -240 800 -150 1160
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 2 1 810 -270n
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 0 4 20 -440 290J -430 NJ -430 1150
+preplace netloc xlconcat_0_dout 1 1 2 310 -660 740
+preplace netloc axi_gpio_0_ip2intc_irpt 1 1 1 270 -780n
+preplace netloc axi_timer_0_interrupt 1 1 2 320 -650 740
+preplace netloc processing_system7_0_DDR 1 2 3 780J -140 1150 10 N
+preplace netloc processing_system7_0_FIXED_IO 1 2 3 740J -130 N -130 1490
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 2 760J -390 NJ
+preplace netloc ps7_0_axi_periph_M00_AXI 1 0 5 30 -280 270J -230 790J -120 NJ -120 1480
+preplace netloc ps7_0_axi_periph_M01_AXI 1 0 5 30 -120 300J -220 750J -110 NJ -110 1470
+preplace netloc axi_gpio_1_GPIO 1 1 4 290J -360 740J -460 NJ -460 1480J
+preplace netloc axi_gpio_0_GPIO 1 1 4 NJ -370 750J -450 NJ -450 1460J
+preplace netloc ps7_0_axi_periph_M02_AXI 1 1 4 320 -250 770J -100 NJ -100 1460
+levelinfo -pg 1 -10 150 530 980 1310 1510
+pagesize -pg 1 -db -bbox -sgen -10 -840 1630 200
+"
+}
+{
+   "da_axi4_cnt":"4",
+   "da_board_cnt":"3",
+   "da_ps7_cnt":"1"
+}
